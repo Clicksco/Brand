@@ -407,6 +407,10 @@
                     $('body').scrollspy({ target: '#main-navigation' })
                 }
         );
+
+        $('[data-spy="scroll"]').each(function () {
+            var $spy = $(this).scrollspy('refresh')
+        });
     </script>
 
 </body>
