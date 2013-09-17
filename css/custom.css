@@ -1,8 +1,14 @@
 .docs-hr {
     margin-top: 40px;
-    border-top: 6px solid #927bb6;
+    border-top: 6px solid #00aeef;
 }
 
 .colour-box {
     height: 150px;
+}
+
+.colour-box p {
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
 }
